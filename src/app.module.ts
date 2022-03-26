@@ -6,11 +6,11 @@ import { Feedback } from './typeorm/Feedback';
 @Module({
   imports: [FeedbacksModule, TypeOrmModule.forRoot({
     type: 'mysql',
-    host: 'localhost',
+    host: 'sql6.freesqldatabase.com',
     port: 3306,
-    username: 'root',
-    password: 'askabek2003',
-    database: 'zenbit_db',
+    username: 'sql6481799',
+    password: 'HhFdD4sjEW',
+    database: 'sql6481799',
     entities: [Feedback],
     synchronize: true
   })],
